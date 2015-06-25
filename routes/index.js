@@ -7,9 +7,9 @@ router.get('/', function(req, res) {
   res.render('index', { title: 'Quiz' });
 });
 
-// router.get('/quizes/question', function(req, res) {
-	// res.send("Get a /quizes/question correcto");
-// });
+router.get('/autor', function(req, res) {
+  res.render('autor');
+});
 
 router.get('/quizes/question', quizController.question);
 router.get('/quizes/answer', quizController.answer);
