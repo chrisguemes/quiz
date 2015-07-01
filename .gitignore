@@ -28,3 +28,10 @@ node_modules
 
 # Image thumbs
 Thumbs.db
+
+#SQlite
+*.sqlite
+
+#Environment files
+.env
+
