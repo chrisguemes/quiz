@@ -11,6 +11,10 @@ router.get('/autor', function(req, res) {
   res.render('autor');
 });
 
+router.get('/search', function(req, res) {
+  res.render('search');
+});
+
 // Autoload de comandos con quizId
 router.param('quizId', quizController.load);
 
